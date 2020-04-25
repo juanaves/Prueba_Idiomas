@@ -60,7 +60,7 @@ try:
     
     base_path = Path(__file__).parent
     file_path = (base_path / "prueba_idiomas.json").resolve()
-    with open(file_path,'r') as file:
+    with open(file_path,'r',encoding='utf-8') as file:
         #json.load. devuelve un objeto de tipo diccionario sobre el que se puede iterar.
         datos = json.load(file)
     
