@@ -1,6 +1,6 @@
 [
   {
-    "$id": "1",
+    "id_prueba": "1",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para cursos segundo cuatrimestre",
     "ID": "A15050163",
@@ -15,13 +15,13 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "2",
+        "id_profesor": "2",
         "NombreCompleto": "Reinhard Dlugay"
       }
     ]
   },
   {
-    "$id": "3",
+    "id_prueba": "3",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para cursos segundo cuatrimestre",
     "ID": "A15050167",
@@ -36,13 +36,13 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "4",
+        "id_profesor": "4",
         "NombreCompleto": "Beatriz Hernández Bravo"
       }
     ]
   },
   {
-    "$id": "5",
+    "id_prueba": "5",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para cursos segundo cuatrimestre",
     "ID": "A15050162",
@@ -57,13 +57,13 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "6",
+        "id_profesor": "6",
         "NombreCompleto": "Marie-Morgane Le Folgoc"
       }
     ]
   },
   {
-    "$id": "7",
+    "id_prueba": "7",
     "MCER": null,
     "Nivel": "Prueba de nivel - para cursos de Inglés para la Docencia y preparatorio de GESE Trinity",
     "ID": "A15050182",
@@ -78,13 +78,13 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "8",
+        "id_profesor": "8",
         "NombreCompleto": "María Luisa Capón Mouriz"
       }
     ]
   },
   {
-    "$id": "9",
+    "id_prueba": "9",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para cursos segundo cuatrimestre",
     "ID": "A15050007",
@@ -99,37 +99,37 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "10",
+        "id_profesor": "10",
         "NombreCompleto": "María Luisa Capón Mouriz"
       },
       {
-        "$id": "11",
+        "id_profesor": "11",
         "NombreCompleto": "Richard James Murison"
       },
       {
-        "$id": "12",
+        "id_profesor": "12",
         "NombreCompleto": "María Isabel Rodríguez Rodríguez"
       },
       {
-        "$id": "13",
+        "id_profesor": "13",
         "NombreCompleto": "Beatriz Freire Betancor"
       },
       {
-        "$id": "14",
+        "id_profesor": "14",
         "NombreCompleto": "Peggy Gerd Henriksson Carlsson"
       },
       {
-        "$id": "15",
+        "id_profesor": "15",
         "NombreCompleto": "Eva Miriam Amaral Ribeiro Sampaio de Andrade"
       },
       {
-        "$id": "16",
+        "id_profesor": "16",
         "NombreCompleto": "Marta María González Orta"
       }
     ]
   },
   {
-    "$id": "17",
+    "id_prueba": "17",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para preparatorios del FCE/CAE/CPE/IELTS",
     "ID": "A15050166",
@@ -144,13 +144,13 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "18",
+        "id_profesor": "18",
         "NombreCompleto": "Clive Tyrell"
       }
     ]
   },
   {
-    "$id": "19",
+    "id_prueba": "19",
     "MCER": null,
     "Nivel": "Prueba de nivel - Para cursos segundo cuatrimestre",
     "ID": "A15050164",
@@ -165,7 +165,7 @@
     "Categoria": "Zona Metropolitana",
     "Profesorado": [
       {
-        "$id": "20",
+        "id_profesor": "20",
         "NombreCompleto": "Nicola Cataldo"
       }
     ]
