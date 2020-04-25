@@ -10,25 +10,49 @@ try:
         print("Numero de pruebas : %s"%len(datos))
     
     def pruebas_mas_2_horas(datos):
-        for prueba in datos:
-            if prueba["Horas"]>2:
-                print(prueba['Titulo'])
+        for curso in datos:
+            if curso["Horas"]>2:
+                print(curso['Titulo'])
 
     def url_pruebas_no_presencial(datos):
-        for prueba in datos:
-            if prueba["TipoFormacion"]=="NoPresencial":
-                print(prueba['URL'])
+        for curso in datos:
+            if curso["TipoFormacion"]=="NoPresencial":
+                print(curso['URL'])
 
     def titulo_profesores_id_prueba(datos):
-        id_prueba=int(input("Introduce el id de la prueba: "))
-        if datos["$id"]==id_prueba:
-            print("datos['Titulo']")
-            for profesor in datos["Profesorado"]:
-               print(profesor["NombreCompleto"])
+        id_prueba=input("Introduce el id de la prueba: ")
+       
+        for curso in datos:
+            if curso["id_prueba"]==id_prueba:
+                #print (type(curso["id_prueba"]))
+                print("Titulo del curso : %s"%curso['Titulo'])
+                print("Profesor/es imparten este curso:")
+                print("--------------------------------")
+                for profesor in curso["Profesorado"]:
+                    print(profesor["NombreCompleto"])
+
+
+    def titulo_profesores_todas_pruebas(datos):
+        for curso in datos:
+            print("")
+            print("Titulo del curso : %s"%curso["Titulo"])
+            for profesor in curso["Profesorado"]:
+                print("Profesor/es imparten este curso:")
+                print("--------------------------------")
+                print(profesor["NombreCompleto"])
+                
+        
+    
+
             
 
 
 
+#vamos a cambiar el utf para que me aparezcan los caracteres ñ y acentos
+#para ellos necesitamos importar la libreria sys
+    codificacion_actual=sys.stdout.encoding
+    print(codificacion_actual) #nos visualizaria utf-8
+    input ("Pulsa una tecla para continuar ....")
 
 
 
@@ -62,7 +86,9 @@ try:
         elif opcion == 3:
             url_pruebas_no_presencial(datos)
         elif opcion == 4:
-           titulo_profesores_id_prueba(datos)
+            titulo_profesores_id_prueba(datos)
+        elif opcion == 5:
+            titulo_profesores_todas_pruebas(datos)
         elif opcion == 6:
             break
         else:
