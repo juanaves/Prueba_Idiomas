@@ -41,22 +41,9 @@ try:
                 print("--------------------------------")
                 print(profesor["NombreCompleto"])
                 
-        
-    
+ 
 
-            
-
-
-
-#vamos a cambiar el utf para que me aparezcan los caracteres ñ y acentos
-#para ellos necesitamos importar la libreria sys
-    codificacion_actual=sys.stdout.encoding
-    print(codificacion_actual) #nos visualizaria utf-8
-    input ("Pulsa una tecla para continuar ....")
-
-
-
-#estas 3 lineas es para abrir un fichero xml, son siempre las mismas y me devuelve en la ¿variable(objeto)? arbol todo el xml
+#estas 3 lineas es para abrir un fichero json, son siempre las mismas y me devuelve en la ¿variable(objeto)? arbol todo el xml
     
     base_path = Path(__file__).parent
     file_path = (base_path / "prueba_idiomas.json").resolve()
